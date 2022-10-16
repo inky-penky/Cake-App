@@ -13,3 +13,8 @@ const cakeReducer = createSlice({
       }     
     }
   })
+
+
+
+export const {buyCake} =  cakeReducer.actions
+export default cakeReducer.reducer
