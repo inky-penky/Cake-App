@@ -10,7 +10,7 @@ const handleClick = () => dispatch(buyCake());
   return (
     <div className="App">
       <h1>{cake} Cakes left</h1>
-      <button onClick={handleClick}>Buy Cake</button>
+      <button onClick={handle}>Buy Cake</button>
     </div>
   );
 }
