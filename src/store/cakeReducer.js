@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const cakeReducer = createSlice({
     name:'cake',
-    initialState: ,
+    initialState: 100,
     reducers:{
       buyCake(state, action){
         return {...state,
