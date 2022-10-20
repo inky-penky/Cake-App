@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 function App() {
 
- const {cakeReducer: {cake}} = useSelector((state) => state) 
+ const {cake} = useSelector((state) => state.cakeReducer) 
 
 const dispatch = useDispatch();
 
