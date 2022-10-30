@@ -9,7 +9,7 @@ const cakeReducer = createSlice({
     reducers:{
       buyCake(state, action){
         return {...state,
-                cake: state. - 1
+                cake: state.cake - 1
             }
       }     
     }
